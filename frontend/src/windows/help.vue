@@ -1,8 +1,8 @@
 <template>
   <Window
     v-bind:title="'Help'"
-    v-bind:top=160
-    v-bind:left=520
+    v-bind:top=48
+    v-bind:left=614
     ref="window"
   >
     <div class="content">
@@ -72,7 +72,6 @@ export default {
     padding: 0 5px;
 
     width: 600px;
-    height: 405px;
     text-align: left;
     padding: 0px 20px;
     overflow: auto;
