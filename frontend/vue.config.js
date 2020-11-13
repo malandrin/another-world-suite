@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/domino-party/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/another-world-suite/' : '/',
   chainWebpack: config => {
     config.module
       .rule('wasm')
