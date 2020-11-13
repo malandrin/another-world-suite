@@ -17,7 +17,7 @@
         <div class="credits">
           <div class="me">
             <div>Made with <i class="fas fa-heart" style="color: red"/> by <a href="https://www.cesarbotana.com" target="_blank">César Botana</a></div>
-            <div>Source code available at <a href="ponerlink" target="_blank">GitHub</a></div>
+            <div>Source code available at <a href="https://github.com/malandrin/another-world-suite" target="_blank">GitHub</a></div>
           </div>
           <div class="giants">
             <div>This project has been possible by standing on the shoulders of giants:</div>
