@@ -301,7 +301,7 @@ export default {
     },
     onFileDropped: async function(event) {
       for (const f of event.dataTransfer.files) {
-        if (f.type === 'application/x-zip-compressed') {
+        if (['application/x-zip-compressed', 'application/zip'].indexOf(f.type) !== -1) {
           this.createEngine(f)
           break
         }
@@ -309,7 +309,7 @@ export default {
     },
     onFileUploaded: async function(event) {
       for (const f of event.target.files) {
-        if (f.type === 'application/x-zip-compressed') {
+        if (['application/x-zip-compressed', 'application/zip'].indexOf(f.type) !== -1) {
           this.createEngine(f)
           break
         }
