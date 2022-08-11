@@ -4,7 +4,7 @@
 
 ## Description
 
-A Rust implementation of the "Another World" ("Out of This World" in USA) game engine, compiled to WebAssembly to run it in the web. It also includes a debugger and a resources viewer. 
+A Rust implementation of the "Another World" ("Out of This World" in the USA) game engine, compiled to WebAssembly to run it in the web. It also includes a debugger and a resources viewer. 
 
 ## [TRY IT NOW!](https://malandrin.github.io/another-world-suite/)
 
