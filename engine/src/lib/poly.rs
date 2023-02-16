@@ -153,8 +153,8 @@ impl Poly {
       cpt2 = (cpt2 & 0xFFFF0000) | 0x8000;
 
       if h == 0 {
-        cpt1 += step1 as u32;
-        cpt2 += step2 as u32;
+        cpt1 = cpt1.overflowing_add(step1 as u32).0;
+        cpt2 = cpt2.overflowing_add(step2 as u32).0;
       } else {
         while h != 0 {
           if hliney >= 0 {
